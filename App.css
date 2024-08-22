@@ -1,0 +1,50 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+.container{
+  width: 500px;
+  height: 400px;
+  background-color: #addbf8;
+  margin-left: 500px;
+  margin-top: 150px;
+  border-radius: 1rem;
+  background: linear-gradient(135deg, #00feba, #5b548a);
+}
+.search-box{
+  width: 65%;
+  border: 1px solid black;
+  padding: 0.7rem;
+  margin: 1rem;
+  border-radius: 1rem;
+  outline: 0;
+  font-size: 14px;
+  letter-spacing: 1px;
+}
+.btn{
+  padding: 0.7rem;
+  border: none;
+  background-color: white;
+  border-radius: 1rem;
+  cursor: pointer;
+  border: 1px solid black;
+  font-size: 14px;
+  letter-spacing: 1px;
+}
+.weather-info{
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1.5rem;
+}
+h1{
+  font-size: 40px;
+}
+.data{
+  font-size: 22px;
+}
